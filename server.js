@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 
 const app = express();
-const VERIFY_TOKEN = "2088"; // puedes cambiarlo luego
+const VERIFY_TOKEN = "BOT_TOKEN_SECRETO_PARA_FACEBOOK"; // puedes cambiarlo luego
 
 app.use(bodyParser.json());
 
