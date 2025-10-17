@@ -4,7 +4,7 @@ import axios from "axios"; // Importamos axios
 
 const app = express();
 const VERIFY_TOKEN = "BOT_TOKEN_SECRETO_PARA_FACEBOOK"; // Cambia esto por un token más seguro
-const PAGE_ACCESS_TOKEN = "TU_PAGE_ACCESS_TOKEN_AQUI"; // <<<<<<<<<<<< ¡IMPORTANTE! Reemplaza esto con tu token de acceso de página
+const PAGE_ACCESS_TOKEN = "EAAgBMbKaFdYBPvgNzzPD0TLd6mIng1SMhFCANZCyMqZAjcXOiIZCv9fEHLbRZAIrcnXZAICGD62n4MivOgvXPLl3loAkujQDvHttZANZAUXRiSZBZBlPyrbgKOL1ej3XQRVocoN0zf3Syber4CkSTrUIIIheSDZALpwzvz3ndWPqnHeDI5Bll23xn4HjZAjM3LEObLwixifRgZDZD"; // <<<<<<<<<<<< ¡IMPORTANTE! Reemplaza esto con tu token de acceso de página
 
 app.use(bodyParser.json());
 
