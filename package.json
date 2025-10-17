@@ -1,0 +1,25 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "Webhook para API de Messenger",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotsoporte37-JamsHarol/messenger-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lotsoporte37-JamsHarol/messenger-bot/issues"
+  },
+  "homepage": "https://github.com/lotsoporte37-JamsHarol/messenger-bot#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "body-parser": "^1.20.2"
+  }
+}
